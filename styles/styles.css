@@ -43,9 +43,7 @@ box-sizing: border-box;
 width: 1150px;
 height: 500px;
 
-
-
-background-image: url('../resources/styl.png'); 
+background-image: url('../resources/styl-ebal.png'); 
 background-size: center;
 }
 .styl-body-text p{
@@ -100,13 +98,15 @@ text-align: left;
 .container-styl{
     width: 1150px;
     height: 701px;
-    margin-left: 125px;
-    margin-right: 128px;
+    margin: 0 auto;
+    margin-top: 70px;
+    
 }
 .container-info{
+    display: block;
     margin-top: 150px;
-    width: 1051px;
-    height: 518px;
-    margin-left: 125px;
+    width: 1150px;
+    height: 698px;
+    margin: 0 auto;
     border-radius: 5px;
 }
