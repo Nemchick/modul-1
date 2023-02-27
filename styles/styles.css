@@ -14,7 +14,7 @@ color: #121212;
 
 
 }
-h3{
+.container-info-nas{
     font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -110,3 +110,46 @@ text-align: left;
     margin: 0 auto;
     border-radius: 5px;
 }
+.item{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1150px;
+    height: auto;
+    margin-bottom: 90px;
+
+}
+.item-img{
+    width: 1150px;
+    height: 450px;
+}
+.item h3{
+    margin-top: 15px;
+    width: 542px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+.item p{
+    width: 127px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+}
+.item h4{
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+margin-bottom: 30px;
+
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+color: #121212;
+}
+
