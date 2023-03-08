@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Manrope', sans-serif;
 }
@@ -54,7 +56,6 @@ h5{
     padding-top: 75px;
 }
 .styl-body{
-    box-sizing: border-box;
     position: relative;
     width: 1150px;
     height: 500px;
@@ -206,11 +207,71 @@ a.bys:hover{
     width: 90px;
     height: 25px;
     cursor: pointer;
+    text-align: right;
 }
-.nav-link:nth-of-type(1){
+.nav-link-active{
     margin-left: 558px;
     opacity: 0.5;
     padding-bottom: 2px;
     border-bottom: 1.2px solid #4d4d4d;
     text-transform: capitalize;
 }
+.section-bed{
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background-image: url('../resources/bed.png'); 
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.conteiner-bed h6{
+    width: 443px;
+    height: 82px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    left: 125px;
+    bottom: 60px;
+    color: white;
+    text-align: left;
+}
+.contact{
+    width: 473px;
+    height: 217px;
+    margin-top: 186px;
+    margin-left: 124px;
+    margin-bottom: 150px;
+    position: relative;
+}
+.contact p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.contact-section{
+    width: 1400px;
+    margin: 0 auto;
+}
+.contact:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    top: -43px;
+    left: -13px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resources/phone.png'); 
+}
+
+/* phone.png */
