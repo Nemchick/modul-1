@@ -85,32 +85,34 @@ h6 {
 }
 .nav-conteiner {
   width: 1150px;
+  height: 30px;
   margin: 0 auto;
+  display: inline-block;
 }
 .nav {
-  display: inline-block;
-  text-align: right;
+  display: inline;
 }
 .nav-link {
   text-decoration: none;
   margin-left: 57px;
   color: #121212;
-
   font-size: 18px;
   line-height: 25px;
 
   text-transform: uppercase;
-  width: 90px;
-  height: 25px;
+
   cursor: pointer;
   text-align: right;
 }
-.nav-link-active {
-  margin-left: 555px;
+a.nav-link:hover {
+  display: inline-block;
   opacity: 0.5;
   padding-bottom: 2px;
   border-bottom: 1.2px solid #4d4d4d;
   text-transform: capitalize;
+}
+.nav:nth-last-child(1) {
+  margin-left: 497px;
 }
 .block-osnova {
   width: 1400px;
@@ -331,7 +333,7 @@ a.batton-project :hover {
 .nav-footer p {
   display: inline-block;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 63px;
 }
 .text-footer {
   font-size: 20px;
@@ -341,7 +343,8 @@ a.batton-project :hover {
   margin-top: 87px;
   margin-left: 4px;
 }
-.nav-footer-activ {
+
+.nav-footer-activ:hover {
   opacity: 0.5;
   margin-left: 0px;
 }
