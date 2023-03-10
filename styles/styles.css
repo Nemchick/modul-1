@@ -91,6 +91,7 @@ h6 {
 }
 .nav {
   display: inline;
+
 }
 .nav-link {
   text-decoration: none;
@@ -100,11 +101,12 @@ h6 {
   line-height: 25px;
 
   text-transform: uppercase;
-
+  
+  
   cursor: pointer;
   text-align: right;
 }
-a.nav-link:hover {
+a.nav-link:hover{
   display: inline-block;
   opacity: 0.5;
   padding-bottom: 2px;
