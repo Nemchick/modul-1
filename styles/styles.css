@@ -91,7 +91,6 @@ h6 {
 }
 .nav {
   display: inline;
-
 }
 .nav-link {
   text-decoration: none;
@@ -101,12 +100,11 @@ h6 {
   line-height: 25px;
 
   text-transform: uppercase;
-  
-  
+
   cursor: pointer;
   text-align: right;
 }
-a.nav-link:hover{
+a.nav-link:hover {
   display: inline-block;
   opacity: 0.5;
   padding-bottom: 2px;
@@ -116,14 +114,14 @@ a.nav-link:hover{
 .nav:nth-last-child(1) {
   margin-left: 497px;
 }
-.block-osnova {
+.block-basic {
   width: 1400px;
   margin: 0 auto;
   padding-left: 125px;
   padding-right: 125px;
   padding-top: 70px;
 }
-.styl-body {
+.chair-body {
   position: relative;
   width: 1150px;
   height: 500px;
@@ -131,7 +129,7 @@ a.nav-link:hover{
   background-size: center;
   margin-bottom: 150px;
 }
-.styl-body-text p {
+.chair-body-text p {
   position: absolute;
 
   font-weight: 400;
@@ -145,7 +143,7 @@ a.nav-link:hover{
   color: white;
   text-align: left;
 }
-.container-info-nas {
+.container-info-about-us {
   width: 1048px;
   height: 367px;
 
@@ -227,7 +225,7 @@ a.batton-project :hover {
   height: 1844px;
   margin: 0 auto;
 }
-.section-ysl {
+.section-services {
   width: 1400px;
   margin: 0 auto;
   padding: 150px 125px 150px 125px;
@@ -290,7 +288,7 @@ a.batton-project :hover {
   height: 24px;
   background-image: url("../resources/phone.png");
 }
-.tel {
+.telephone {
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
