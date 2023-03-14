@@ -83,7 +83,7 @@ h6 {
 .logo-link {
   display: inline-block;
 }
-.nav-conteiner {
+.nav-container {
   width: 1150px;
   height: 30px;
   margin: 0 auto;
@@ -249,7 +249,7 @@ a.button-project :hover {
   background-size: cover;
   background-position: 50%;
 }
-.conteiner-bed {
+.container-bed {
   width: 1400px;
   height: 717px;
   position: relative;
@@ -344,7 +344,7 @@ a.button-project :hover {
   margin-left: 4px;
 }
 
-.nav-footer-activ:hover {
+.nav-footer-active:hover {
   opacity: 0.5;
   margin-left: 0px;
 }
