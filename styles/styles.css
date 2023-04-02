@@ -115,15 +115,14 @@ a.nav-link:hover {
   margin-left: 497px;
 }
 .block-basic {
-  width: 1400px;
+  width: 1150px;
   margin: 0 auto;
-  padding-left: 125px;
-  padding-right: 125px;
   padding-top: 69px;
 }
+
 .chair-body {
   position: relative;
-  width: 1150px;
+  width: 100%;
   height: 500px;
   background-image: url("../resources/styl-ebal.png");
   background-size: center;
@@ -181,13 +180,15 @@ a.nav-link:hover {
   flex-grow: 0;
 }
 .item {
-  width: 1150px;
+  width: 100%;
   height: auto;
   margin-bottom: 78px;
 }
 .item img {
-  width: 1150px;
+  width: 100%;
   height: 450px;
+  background-size: cover;
+  background-position: 50%;
 }
 .item a {
   width: 127px;
@@ -218,6 +219,126 @@ a.button-project :hover {
   background-color: #ad1818;
   color: white;
 }
+@media (max-width: 1199px) {
+  .block-basic {
+    width: 100%;
+    padding-top: 73px;
+    margin-left: 17px;
+    margin-right: 15px;
+  }
+  .chair-body-text p {
+    bottom: 30px;
+  }
+  .chair-body {
+    height: 400px;
+    margin-bottom: 120px;
+    background-size: cover;
+    background-position: 50%;
+  }
+  h1 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .container-info-about-us {
+    width: 100%;
+    height: auto;
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .button {
+    margin-bottom: 120px;
+  }
+  .item{
+    margin-bottom: 80px;
+  }
+  .item-last{
+    margin-bottom: 102px;
+  }
+  .item img {
+    height: auto;
+  }
+  h3 {
+    width: auto;
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .button-project{
+    margin-bottom: 103px;
+  }
+}
+@media (max-width: 767px) {
+  .block-basic {
+    padding-top: 61px;
+    margin-left: 13px;
+    margin-right: 12px;
+  }
+  .chair-body {
+    height: 300px;
+    margin-bottom: 80px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .chair-body-text p {
+    left: 15px;
+    bottom: 15px;
+    height: auto;
+    font-size: 16px;
+    line-height: 22px;
+    width: 80%;
+  }
+  h2 {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .container-info-about-us {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .button {
+    font-size: 16px;
+    line-height: 22px;
+    width: 194px;
+    height: 51px;
+    margin-bottom: 80px;
+  }
+  .button p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 14.5px;
+    margin-left: 27px;
+  }
+  .item{
+    margin-bottom: 49px;
+  }
+  .item-last{
+    margin-bottom: 60px;
+  }
+  .item img {
+    height: auto;
+  }
+  h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .item a {
+    width: 101px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .button-project{
+    height: 100px;
+    font-size: 22px;
+    line-height: 100px;
+    margin-bottom: 144px;
+  }
+}
 .section {
   background-color: #121212;
   width: 100%;
@@ -230,7 +351,7 @@ a.button-project :hover {
   margin: 0 auto;
   padding: 0 125px 150px 125px;
 }
-.services-title{
+.services-title {
   width: 1400px;
   margin: 0 auto;
   padding: 150px 125px 0 125px;
