@@ -1,0 +1,53 @@
+.contact {
+    width: 473px;
+    height: 217px;
+    margin-top: 186px;
+    margin-left: 124px;
+    margin-bottom: 146px;
+    position: relative;
+  }
+  .contact p {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 32px;
+  }
+  .contact-section {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .contact:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    top: -37px;
+    left: -4px;
+    width: 24px;
+    height: 24px;
+    background-image: url("../resources/phone.png");
+  }
+  .telephone {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+  }
+  .mail {
+    position: absolute;
+    top: 138px;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    opacity: 0.5;
+    text-transform: lowercase;
+    margin-top: 10px;
+    opacity: 0.5;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #4d4d4d;
+  }

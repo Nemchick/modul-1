@@ -1,0 +1,26 @@
+.section {
+    background-color: #121212;
+    width: 100%;
+    min-width: 1400px;
+    height: 1844px;
+    margin: 0 auto;
+  }
+  .section-services {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 125px 150px 125px;
+  }
+  .services-title {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 150px 125px 0 125px;
+    background-color: #121212;
+  }
+  .services {
+    width: 1150px;
+    height: 270px;
+    height: auto;
+  }
+  .services:nth-last-child(1) {
+    margin-bottom: 0px;
+  }

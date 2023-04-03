@@ -1,0 +1,41 @@
+.nav-section {
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 29px;
+  }
+  .logo-link {
+    display: inline-block;
+  }
+  .nav-container {
+    width: 1150px;
+    height: 30px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .nav {
+    display: inline;
+  }
+  .nav-link {
+    text-decoration: none;
+    margin-left: 57px;
+    color: #121212;
+    font-size: 18px;
+    line-height: 25px;
+  
+    text-transform: uppercase;
+  
+    cursor: pointer;
+    text-align: right;
+  }
+  a.nav-link:hover {
+    display: inline-block;
+    opacity: 0.5;
+    padding-bottom: 2px;
+    border-bottom: 1.2px solid #4d4d4d;
+    text-transform: capitalize;
+  }
+  .nav:nth-last-child(1) {
+    margin-left: 497px;
+  }
