@@ -10,7 +10,7 @@
   width: 1150px;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .services-title {
   width: 1150px;
