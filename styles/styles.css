@@ -4,6 +4,7 @@
 @import "contact.css";
 @import "footer.css";
 @import "block-basic.css";
+@import "reviews.css";
 
 html {
   scroll-behavior: smooth;
