@@ -100,6 +100,13 @@
   background-size: cover;
   background-position: 50%;
 }
+.gallery__control-next:hover{
+  opacity: 0.5;
+}
+.gallery__control-prev:hover{
+  opacity: 0.5;
+}
+
 .text-box {
   position: absolute;
   bottom: 60px;
