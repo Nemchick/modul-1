@@ -1,53 +1,126 @@
+.contact-section {
+  position: relative;
+  width: 1150px;
+  margin: 0 auto;
+  padding: 150px 0 150px 0;
+}
+.contact-title {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 74px;
+}
 .contact {
-    width: 473px;
-    height: 217px;
-    margin-top: 186px;
-    margin-left: 124px;
-    margin-bottom: 146px;
-    position: relative;
-  }
-  .contact p {
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    color: #121212;
-    margin-bottom: 32px;
-  }
+  position: relative;
+}
+.contact:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  top: -37px;
+  left: -4px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/phone.png");
+}
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 104px;
+}
+.telephone {
+  vertical-align: -46px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  text-decoration: none;
+}
+.mail-box {
+  position: relative;
+}
+.mail-text {
+  border-bottom: 2px solid #121212;
+  opacity: 0.5;
+  padding-bottom: 4px;
+  vertical-align: 2px;
+}
+.mail-box:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../resources/mail.png");
+  top: -37px;
+  left: 4px;
+  width: 20px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.mail {
+  width: 354px;
+  height: 60px;
+  text-decoration: none;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+}
+@media (max-width: 1199px) {
   .contact-section {
-    width: 1400px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 120px 0 80px 16px;
   }
-  .contact:after {
-    content: "";
-    display: block;
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    top: -37px;
-    left: -4px;
-    width: 24px;
-    height: 24px;
-    background-image: url("../resources/phone.png");
+  .contact-box {
+    gap: 114px;
   }
   .telephone {
-    margin-bottom: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    text-decoration: none;
+    font-size: 45px;
   }
   .mail {
-    position: absolute;
-    top: 138px;
-    text-decoration: none;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    opacity: 0.5;
-    text-transform: lowercase;
-    margin-top: 10px;
-    opacity: 0.5;
-    padding-bottom: 4px;
-    border-bottom: 3px solid #4d4d4d;
+    width: calc(50% - 57px);
+    font-size: 45px;
   }
+}
+@media (max-width: 767px) {
+  .contact-section {
+    padding: 80px 0 80px 14px;
+    
+  }
+  .contact-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .contact:after {
+    width: 10px;
+    height: 16.5px;
+    top: -20px;
+    left: 2px;
+  }
+  .mail-text {
+    border-bottom: 0px solid #121212;
+    opacity: 1;
+  }
+  .contact-box {
+    gap: 58px;
+    flex-direction: column;
+  }
+  .mail-box:after {
+    top: -23px;
+    left: 2px;
+    width: 15px;
+    height: 12px;
+  }
+  .telephone {
+    font-size: 35px;
+    line-height: 46px;
+    vertical-align: 0;
+  }
+  .mail {
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
