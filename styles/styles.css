@@ -5,6 +5,7 @@
 @import "footer.css";
 @import "block-basic.css";
 @import "reviews.css";
+@import "popup.css";
 
 html {
   scroll-behavior: smooth;
