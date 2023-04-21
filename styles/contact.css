@@ -9,7 +9,7 @@
   line-height: 25px;
   text-transform: uppercase;
   color: #121212;
-  margin-bottom: 74px;
+  margin-bottom: 68px;
 }
 .contact {
   position: relative;
@@ -21,8 +21,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  top: -37px;
-  left: -4px;
+  top: -44px;
+  left: -6px;
   width: 24px;
   height: 24px;
   background-image: url("../resources/phone.png");
@@ -53,8 +53,8 @@
   display: block;
   position: absolute;
   background-image: url("../resources/mail.png");
-  top: -37px;
-  left: 4px;
+  top: -39px;
+  left: 5px;
   width: 20px;
   height: 16px;
   background-size: cover;

@@ -6,13 +6,13 @@
   padding-bottom: 30px;
 }
 .nav-footer {
-  padding-top: 60px;
+  padding-top: 59px;
 }
 .nav-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 53px;
+  gap: 55px;
 }
 .nav-footer a {
   font-size: 18px;

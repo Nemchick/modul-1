@@ -1,7 +1,7 @@
 .section-reviews {
   width: 1150px;
   margin: 0 auto;
-  padding: 150px 0 157px 0;
+  padding: 150px 0 148px 0;
 }
 .reviews {
   display: flex;
@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
-  row-gap: 50px;
+  row-gap: 82px;
 }
 
 .reviews-big {
