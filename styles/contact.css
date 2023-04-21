@@ -101,18 +101,19 @@
 }
 @media (max-width: 767px) {
   .contact-section {
-    padding: 80px 0 80px 14px;
+    padding: 80px 0 80px 10px;
     
   }
   .contact-title {
     font-size: 14px;
     line-height: 19px;
+    margin-bottom: 57px;
   }
   .contact:after {
     width: 10px;
     height: 16.5px;
-    top: -20px;
-    left: 2px;
+    top: -37px;
+    left: 3px;
   }
   .mail-text {
     border-bottom: 0px solid #121212;
@@ -123,8 +124,8 @@
     flex-direction: column;
   }
   .mail-box:after {
-    top: -23px;
-    left: 2px;
+    top: -34px;
+    left: 3px;
     width: 15px;
     height: 12px;
   }

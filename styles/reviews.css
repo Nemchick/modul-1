@@ -76,11 +76,11 @@
 @media (max-width: 767px) {
   .section-reviews {
     width: 100%;
-    padding: 80px 15px 80px 17px;
+    padding: 80px 15px 85px 13px;
   }
   .reviews {
     flex-direction: column;
-    row-gap: 80px;
+    row-gap: 74px;
   }
   .reviews-title {
     margin-bottom: 22px;
@@ -99,4 +99,5 @@
     font-size: 16px;
     line-height: 22px;
   }
+  
 }
