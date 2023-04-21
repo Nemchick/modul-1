@@ -123,8 +123,8 @@ h1 {
     .block-basic {
       width: 100%;
       padding-top: 73px;
-      padding-left: 17px;
-      padding-right: 15px;
+      padding-left: 16px;
+      padding-right: 16px;
     }
     .chair-body-text p {
       bottom: 30px;
@@ -139,6 +139,7 @@ h1 {
       width: 100%;
       font-size: 50px;
       line-height: 60px;
+      margin-bottom: 28px;
     }
     .container-info-about-us {
       width: 690px;
@@ -147,13 +148,17 @@ h1 {
       line-height: 48px;
     }
     .button {
-      margin-bottom: 120px;
+      margin-bottom: 121px;
     }
     .item{
-      margin-bottom: 80px;
+      margin-bottom: 75px;
+    }
+    .item a{
+      
+    line-height: 40px;
     }
     .item-last{
-      margin-bottom: 102px;
+      margin-bottom: 95px;
     }
     .item img {
         height: 450px;

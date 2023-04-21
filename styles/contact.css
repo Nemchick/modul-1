@@ -72,10 +72,13 @@
 @media (max-width: 1199px) {
   .contact-section {
     width: 100%;
-    padding: 120px 0 80px 16px;
+    padding: 120px 0 120px 16px;
+  }
+  .contact-title{
+    margin-bottom: 61px;
   }
   .contact-box {
-    gap: 114px;
+    gap: 117px;
   }
   .telephone {
     font-size: 45px;
@@ -83,6 +86,17 @@
   .mail {
     width: calc(50% - 57px);
     font-size: 45px;
+  }
+  .contact:after{
+    top: -39px;
+    left: -5px;
+  }
+  .mail-box:after{
+    top: -33px;
+  left: 4px;
+  }
+  .mail-text {
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 767px) {

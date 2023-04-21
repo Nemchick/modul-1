@@ -87,9 +87,10 @@ h5 {
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
+    row-gap: 79px;
   }
   .services {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
   .services-title {
     width: 100%;
@@ -99,7 +100,7 @@ h5 {
     height: 315px;
   }
   h4 {
-    padding-bottom: 30px;
+    padding-bottom: 29px;
   }
   h5 {
     width: auto;
@@ -113,14 +114,17 @@ h5 {
     top: 31px;
     font-size: 20px;
     line-height: 40px;
+    padding: 0px 27px 0px 27px;
   }
   .button-block {
     width: 100%;
     padding-left: 17px;
     padding-right: 15px;
+    margin-top: 76px;
   }
   .button-services {
     width: 100%;
+    margin-bottom: 120px;
   }
 }
 @media (max-width: 767px) {

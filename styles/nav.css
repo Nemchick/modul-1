@@ -49,7 +49,7 @@ a.nav-link:hover {
 .burger-btn {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 28px;
   right: 15px;
   background-image: url("../resources/burger-btn.svg");
   background-size: cover;

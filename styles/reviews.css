@@ -54,6 +54,9 @@
     width: 100%;
     row-gap: 80px;
   }
+  .reviews-title{
+    margin-bottom: 32px;
+  }
   .box-reviews {
     width: calc(50% - 5px);
   }
