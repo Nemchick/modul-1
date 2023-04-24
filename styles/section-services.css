@@ -81,6 +81,7 @@ h5 {
   font-size: 30px;
   line-height: 153px;
   border: none;
+  font-family: 'Manrope';
 }
 @media (max-width: 1199px) {
   .section-services {
